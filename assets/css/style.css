@@ -68,3 +68,40 @@ header{
 #pandaCuatro{
   background-image: url(../img/panda4.jpg);
 }
+#botonesSecundarios{
+  display:flex;
+  background-color: #ff3180;
+  height: 120px;
+  width: 80%;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+#botonesSecundarios>a{
+  width: 25%;
+  color:white;
+  font-size: 1.2em;
+  height: 40px;
+  padding:15px 20px 0px 20px;
+  text-decoration: none;
+  background-color: #505050;
+  text-align: center;
+}
+#botonesSecundarios>a:hover{
+  color:cyan;
+  background-color: black;
+}
+#textos{
+  display:flex;
+  background-color: #ff3180;
+  height: auto;
+  width: 80%;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedorTexto{
+  width: 45%;
+  text-align: justify;
+  color:white;
+}
