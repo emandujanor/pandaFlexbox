@@ -58,15 +58,19 @@ header{
 }
 #pandaUno{
   background-image: url(../img/panda1.jpg);
+  visibility: visible;
 }
 #pandaDos{
   background-image: url(../img/panda2.jpg);
+  visibility: visible;
 }
 #pandaTres{
   background-image: url(../img/panda3.jpg);
+  visibility: visible;
 }
 #pandaCuatro{
   background-image: url(../img/panda4.jpg);
+  visibility: visible;
 }
 #botonesSecundarios{
   display:flex;
@@ -94,7 +98,7 @@ header{
 #textos{
   display:flex;
   background-color: #ff3180;
-  height: auto;
+  height: 250px;
   width: 80%;
   flex-direction:row;
   justify-content: space-between;
