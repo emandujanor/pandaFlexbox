@@ -1,0 +1,41 @@
+body{
+  margin:0px;
+  display:flex;
+  justify-content: center;
+  
+
+}
+header{
+  display:flex;
+  background-color: #31aa80;
+  height: 70px;
+  width: 100%;
+}
+#menuPrincipal{
+  display:flex;
+  flex-direction:row;
+  width: 60%;
+  align-items: flex-start;
+  background-color: #568951;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#menuPrincipal>a{
+  color:white;
+  font-size: 1.2em;
+  height: 40px;
+  padding:15px 20px 0px 20px;
+  text-decoration: none;
+}
+#menuPrincipal>a:hover{
+  color:cyan;
+  background-color: black;
+}
+#pandasRow{
+  display:flex;
+  background-color: #31ff80;
+  height: 70px;
+  width: 80%;
+  flex-wrap: wrap;
+}
