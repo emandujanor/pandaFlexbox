@@ -1,9 +1,8 @@
 body{
   margin:0px;
   display:flex;
-  justify-content: center;
-  
-
+  flex-direction:column;
+  align-items: center;
 }
 header{
   display:flex;
@@ -35,7 +34,37 @@ header{
 #pandasRow{
   display:flex;
   background-color: #31ff80;
-  height: 70px;
+  height: auto;
   width: 80%;
-  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.cerrar{
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  padding: 0px;
+  margin: 5px;
+}
+
+.cerrar:hover{
+  color:red;
+}
+.contenedorPanda{
+  width: 20%;
+  background-size: cover;
+  height: 200px;
+}
+#pandaUno{
+  background-image: url(../img/panda1.jpg);
+}
+#pandaDos{
+  background-image: url(../img/panda2.jpg);
+}
+#pandaTres{
+  background-image: url(../img/panda3.jpg);
+}
+#pandaCuatro{
+  background-image: url(../img/panda4.jpg);
 }
