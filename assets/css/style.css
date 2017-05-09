@@ -3,10 +3,11 @@ body{
   display:flex;
   flex-direction:column;
   align-items: center;
+  background-color: #000;
 }
 header{
   display:flex;
-  background-color: #31aa80;
+  background-color: #32A1AB;
   height: 70px;
   width: 100%;
 }
@@ -15,7 +16,6 @@ header{
   flex-direction:row;
   width: 60%;
   align-items: flex-start;
-  background-color: #568951;
   justify-content: space-around;
   align-items: center;
 
@@ -26,14 +26,15 @@ header{
   height: 40px;
   padding:15px 20px 0px 20px;
   text-decoration: none;
+  border-radius: 5px;
 }
 #menuPrincipal>a:hover{
   color:cyan;
   background-color: black;
 }
 #pandasRow{
+  margin-top: 20px;
   display:flex;
-  background-color: #31ff80;
   height: auto;
   width: 80%;
   flex-direction:row;
@@ -46,15 +47,18 @@ header{
   font-weight: bold;
   padding: 0px;
   margin: 5px;
+  width: 10%;
 }
 
 .cerrar:hover{
-  color:red;
+  color:cyan;
+  cursor:pointer;
 }
 .contenedorPanda{
   width: 20%;
   background-size: cover;
   height: 200px;
+  border-radius: 50%;
 }
 #pandaUno{
   background-image: url(../img/panda1.jpg);
@@ -74,7 +78,6 @@ header{
 }
 #botonesSecundarios{
   display:flex;
-  background-color: #ff3180;
   height: 120px;
   width: 80%;
   flex-direction:row;
@@ -88,8 +91,10 @@ header{
   height: 40px;
   padding:15px 20px 0px 20px;
   text-decoration: none;
-  background-color: #505050;
+  background-color: #32A1AB;
   text-align: center;
+  border: solid #32A1AB;
+  border-radius: 5px;
 }
 #botonesSecundarios>a:hover{
   color:cyan;
@@ -97,7 +102,6 @@ header{
 }
 #textos{
   display:flex;
-  background-color: #ff3180;
   height: 250px;
   width: 80%;
   flex-direction:row;
@@ -112,9 +116,10 @@ header{
 footer{
   width: 100%;
   height: 120px;
-  background-color:black;
+  background-color:#0D0D0D;
   display:flex;
   justify-content: center;
-  color: white;
+  color: #32A1AB;
   align-items: center;
+  border-top: solid thin #32A1AB;
 }
